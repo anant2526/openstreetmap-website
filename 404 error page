@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 Not Found | OpenStreetMap</title>
+  <link rel="stylesheet" href="404.css" />
+</head>
+<head>
+    <style>
+        body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #fff;
+  margin: 0;
+  padding: 40px;
+  color: #222;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 30px;
+  height: 30px;
+}
+
+.logo span {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.map-img {
+  width: 200px;
+  max-width: 100%;
+}
+
+.text h1 {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text h2 {
+  font-size: 22px;
+  margin: 5px 0 10px 0;
+  color: #333;
+}
+
+.text p {
+  font-size: 16px;
+  color: #444;
+  line-height: 1.5;
+}
+
+.text a {
+  color: #0078c8;
+  text-decoration: none;
+}
+
+.text a:hover {
+  text-decoration: underline;
+}
+
+    </style> 
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Openstreetmap_logo.svg" alt="OpenStreetMap Logo">
+      <span>OpenStreetMap</span>
+    </div>
+
+    <div class="content">
+      <img class="map-img" src="https://upload.wikimedia.org/wikipedia/commons/b/b0/Openstreetmap_logo.svg" alt="Map Icon">
+      <div class="text">
+        <h1>404</h1>
+        <h2>The server couldn’t find that file or URL.</h2>
+        <p>
+          The URL may be incorrect or no longer available.<br>
+          Try <a href="https://www.openstreetmap.org/#map=5/28.65/93.60" target="_blank">
+          contacting the OpenStreetMap community</a> if you’ve found a broken link.
+          
+        </p>
+        <a href="https://www.openstreetmap.org/#map=5/28.65/93.60">Home Screen</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
